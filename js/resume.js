@@ -28,7 +28,7 @@ $(document).ready(() => {
 
   
   $('[data-toggle="tooltip"]').tooltip();
-  $("#email-link").click(()=>{
+  $(".email-link").click(()=>{
     let addr = 'kim1634';
     addr += '@';
     addr += 'purdue.edu';

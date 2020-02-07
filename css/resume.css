@@ -1,0 +1,364 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.25rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #BD5D38;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+#sideNav .navbar-logo-name {
+  font-family:Quicksand,sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  /* margin-bottom: 0.6em; */
+}
+
+#sideNav .navbar-profile-text {
+  font-size:1em;
+  color: white;
+}
+
+.navbar-link-icons {
+  padding: 1em;
+}
+
+.navbar-link-icons a {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  margin-right: 0.5em;
+  transition: all .5s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.navbar-link-icons a:last-child {
+  margin-right: 0;
+}
+
+.navbar-link-icons a:hover {
+  background-color: #4a774a;
+}
+
+.btn-round {
+  color: #fff;
+  background-color: #495057;
+  font-weight: 400 !important;
+  font-size: 0.8em;  
+  line-height: 1.2em;
+  letter-spacing: .05em;
+  vertical-align: middle;
+  padding: 0.6em 1.7em;
+  border-radius: 2em;
+  border: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  box-shadow: transparent 0 0 0;
+  transition: all .5s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.btn-round:hover {
+  background-color: #4a774a;
+}
+
+.btn-cv {
+  margin-top: 1em;
+}
+
+.pub-items{
+  padding-inline-start: 30px;
+}
+.pub-items li {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #343a40;  
+}
+
+.pub-items .author {
+  font-size: 1rem;
+  font-weight: 400;  
+}
+
+.pub-item {
+  margin-bottom: 2em;
+}
+
+.pub-sub {
+  background-color: #d6ab60;
+  border-radius: 1em;
+  padding: 0.3em 1em;
+  color: white !important;
+  font-size: 1em;  
+  display: inline-block;
+  /* margin-left: -0.8em; */
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.pub-conf {
+  color: #fff;
+  background-color: #495057;
+  font-weight: 400 !important;
+  font-size: 0.9em;  
+  vertical-align: middle;
+  padding: 0.1em 0.5em;
+  border-radius: 0.3em;
+  margin-left: 0.5em;
+}
+
+.timeline {
+  border-left: 3px solid silver;
+  padding-left: 1em;
+  margin-left: 1em;
+}
+
+.timeline .timeline-box {
+  padding-bottom: 2em;
+}
+
+.timeline .marker {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background: #d6ab60;
+  /* margin-top: 10px; */
+  z-index: 10;
+  position: relative;
+  left: -25.5px;
+  top: 1.3em;
+}
+
+.timeline .timeline-date {
+  background-color: #d6ab60;
+  border-radius: 1em;
+  padding: 0.3em 1em;
+  color: white !important;
+  font-size: 0.8em;
+  margin-left: -12px;
+  margin-bottom: 10px;
+  display: inline-block;
+  
+}
+
+.timeline ul {
+  padding-inline-start: 2em;
+  margin-top: -0.8em;
+}
+
+#awards span {
+  margin-left: 2em;
+}
+
+#awards .awards-item {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.img-profile-sm {
+  display: none;
+}
+@media (min-width: 700px) {
+  .img-profile-sm {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+.title-name-sm {
+  color: white;
+  font-size: 2.5em;
+  /* font-weight: 700; */
+}
+
+.title-bar-sm {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title-bar-sm .navbar-link-icons{
+  padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: 0 auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4em;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    /* min-height: 100vh; */
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #BD5D38 !important;
+}
+
+.text-primary {
+  color: #BD5D38 !important;
+}
+
+a {
+  color: #BD5D38;
+}
+
+a:hover, a:focus, a:active {
+  color: #824027;
+}
